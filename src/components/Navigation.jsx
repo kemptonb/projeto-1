@@ -6,7 +6,7 @@ const Navigation = (props) => {
 
   return (
     <div className='app__navigation'>
-         {["start", "about", "work", "skills", "testimonials", "contact"].map(
+         {["start", "about", "work","skills", "testimonials", "contact"].map(
           (item, index) => (
            <a 
             className='app__navigation-dot'

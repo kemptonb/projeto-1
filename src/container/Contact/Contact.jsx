@@ -37,7 +37,7 @@ const Contact = () => {
 
   return (
     <>
-      <h2 className="head-text">Grab a coffee & talk to me</h2>
+      <h2 className="head-text">Create your website - today!</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card">
@@ -56,7 +56,7 @@ const Contact = () => {
           <input className="p-text" type="text" placeholder="Your name" name="name" value={name} onChange={handleChangeInput} />
         </div>
         <div className="app__flex">
-          <input className="p-text" type="text" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
+          <input className="p-text" type="text" placeholder="Your email" name="email" value={email} onChange={handleChangeInput} />
         </div>
         <div>
           <textarea
